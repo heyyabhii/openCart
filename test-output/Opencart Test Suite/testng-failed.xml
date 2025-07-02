@@ -5,16 +5,24 @@
     <listener class-name="utilities.ExtentReportManager"/>
   </listeners>
   <test thread-count="5" name="All Functional Tests(failed)">
-    <parameter name="os" value="Windows"/>
+    <parameter name="os" value="Linux"/>
     <parameter name="browser" value="chrome"/>
     <groups>
       <run>
         <include name="sanity"/>
         <include name="regression"/>
         <include name="Master"/>
+        <include name="regression"/>
       </run>
     </groups>
     <classes>
+      <class name="testCases.TC007_WishListTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="WishListWithLogin"/>
+        </methods>
+      </class> <!-- testCases.TC007_WishListTest -->
       <class name="testCases.TC004_PurchaseProduct">
         <methods>
           <include name="tearDown"/>

@@ -16,6 +16,9 @@ public class MyAccountPage extends BasePage {
 	@FindBy(xpath="//*[@id=\"column-right\"]/div/a[13]")
 	WebElement btnLogout;
 	
+	@FindBy(xpath="//span[contains(.,'Wish List (1)')]")
+	WebElement btnMyWishList;
+	
 	public boolean isMyAccountdisplayed() {
 		
 		try {
@@ -31,6 +34,11 @@ public class MyAccountPage extends BasePage {
 	public void clickLogout() {
 		
 		btnLogout.click();
+	}
+	
+	public void clickOnWishList()
+	{
+		btnMyWishList.click();
 	}
 	
 }

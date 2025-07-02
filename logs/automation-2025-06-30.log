@@ -1,0 +1,535 @@
+11:01:48.743 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+11:01:48.749 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+11:01:48.749 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+11:01:48.749 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+11:01:48.749 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+11:01:48.752 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+11:01:48.767 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+11:01:48.768 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+11:01:48.768 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+11:01:48.769 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+11:01:48.769 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+11:01:48.770 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+11:01:48.770 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+11:01:48.770 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+11:01:48.771 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+11:01:48.772 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+11:01:48.772 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+11:01:48.772 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+11:01:48.772 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+11:01:48.778 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Aniket Kumbhar\AppData\Local\Temp\testng-eclipse--890557006\testng-customsuite.xml
+
+11:01:48.794 [main] INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 4 ms.
+11:01:48.985 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@2e9fda69: 87 ms
+11:01:49.006 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@48a12036: 21 ms
+11:01:49.027 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@2eced48b: 21 ms
+11:01:49.039 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@5c18016b: 12 ms
+11:01:49.046 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@2f6e28bc: 7 ms
+11:01:49.046 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@7c098bb3: 0 ms
+11:02:09.040 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml"
+11:02:09.545 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml
+
+11:02:19.077 [main] INFO  testCases.TC001_accountRegistrationTest - Starting TC001_accountRegistrationTest...
+11:02:20.874 [main] INFO  testCases.TC001_accountRegistrationTest - Providing customer details..
+11:02:22.314 [main] INFO  testCases.TC001_accountRegistrationTest - Confirming message
+11:02:26.085 [main] INFO  testCases.TC002_loginTest - TC002_loginTest is started...
+11:02:27.855 [main] INFO  testCases.TC002_loginTest - TC002_loginTest is successful
+11:04:05.409 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml"
+11:04:05.683 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml
+
+11:04:11.467 [main] INFO  testCases.TC001_accountRegistrationTest - Starting TC001_accountRegistrationTest...
+11:04:12.076 [main] INFO  testCases.TC001_accountRegistrationTest - Providing customer details..
+11:04:13.696 [main] INFO  testCases.TC001_accountRegistrationTest - Confirming message
+11:04:16.015 [main] INFO  testCases.TC002_loginTest - TC002_loginTest is started...
+11:04:27.012 [main] ERROR testCases.TC002_loginTest - Element not found: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="content"]/div/div[2]/div/form/inputp"}
+  (Session info: chrome=137.0.7151.120)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3938bb5a56f9d415afa3a0118be1e94a, findElement {using=xpath, value=//*[@id="content"]/div/div[2]/div/form/inputp}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\ANIKET~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50499}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50499/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3938bb5a56f9d415afa3a0118be1e94a
+19:59:56.086 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml"
+19:59:56.455 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml
+
+19:59:59.901 [main] INFO  testCases.TC001_accountRegistrationTest - Starting TC001_accountRegistrationTest...
+20:00:01.544 [main] INFO  testCases.TC001_accountRegistrationTest - Providing customer details..
+20:00:04.901 [main] INFO  testCases.TC001_accountRegistrationTest - Confirming message
+20:00:07.733 [main] INFO  testCases.TC002_loginTest - TC002_loginTest is started...
+20:00:09.398 [main] INFO  testCases.TC002_loginTest - TC002_loginTest is successful
+21:20:29.697 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml"
+21:20:29.978 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml
+
+21:20:33.621 [main] INFO  testCases.TC001_accountRegistrationTest - Starting TC001_accountRegistrationTest...
+21:20:34.433 [main] INFO  testCases.TC001_accountRegistrationTest - Providing customer details..
+21:20:35.761 [main] INFO  testCases.TC001_accountRegistrationTest - Confirming message
+21:20:37.790 [main] INFO  testCases.TC002_loginTest - TC002_loginTest is started...
+21:20:39.511 [main] INFO  testCases.TC002_loginTest - TC002_loginTest is successful
+21:25:47.865 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml"
+21:25:48.163 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml
+
+21:25:51.297 [main] INFO  testCases.TC001_accountRegistrationTest - Starting TC001_accountRegistrationTest...
+21:25:52.161 [main] INFO  testCases.TC001_accountRegistrationTest - Providing customer details..
+21:25:53.394 [main] INFO  testCases.TC001_accountRegistrationTest - Confirming message
+21:25:55.567 [main] INFO  testCases.TC002_loginTest - TC002_loginTest is started...
+21:25:57.226 [main] INFO  testCases.TC002_loginTest - TC002_loginTest is successful
+11:16:31.000 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml"
+11:16:31.393 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml
+
+11:16:52.460 [main] INFO  testCases.TC001_accountRegistrationTest - Starting TC001_accountRegistrationTest...
+11:16:53.333 [main] INFO  testCases.TC001_accountRegistrationTest - Providing customer details..
+11:16:54.664 [main] INFO  testCases.TC001_accountRegistrationTest - Confirming message
+11:16:56.872 [main] INFO  testCases.TC002_loginTest - TC002_loginTest is started...
+11:16:58.965 [main] INFO  testCases.TC002_loginTest - TC002_loginTest is successful
+11:19:38.233 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml"
+11:19:38.520 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml
+
+11:19:41.381 [main] INFO  testCases.TC001_accountRegistrationTest - Starting TC001_accountRegistrationTest...
+11:19:42.231 [main] INFO  testCases.TC001_accountRegistrationTest - Providing customer details..
+11:19:43.447 [main] INFO  testCases.TC001_accountRegistrationTest - Confirming message
+11:19:45.673 [main] INFO  testCases.TC002_loginTest - TC002_loginTest is started...
+11:19:47.214 [main] INFO  testCases.TC002_loginTest - TC002_loginTest is successful
+11:23:26.556 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml"
+11:23:26.850 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml
+
+11:23:30.021 [main] INFO  testCases.TC001_accountRegistrationTest - Starting TC001_accountRegistrationTest...
+11:23:30.923 [main] INFO  testCases.TC001_accountRegistrationTest - Providing customer details..
+11:23:32.335 [main] INFO  testCases.TC001_accountRegistrationTest - Confirming message
+11:23:34.618 [main] INFO  testCases.TC002_loginTest - TC002_loginTest is started...
+11:23:36.497 [main] INFO  testCases.TC002_loginTest - TC002_loginTest is successful
+11:25:27.631 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml"
+11:25:27.922 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml
+
+11:25:32.821 [main] INFO  testCases.TC001_accountRegistrationTest - Starting TC001_accountRegistrationTest...
+11:25:33.672 [main] INFO  testCases.TC001_accountRegistrationTest - Providing customer details..
+11:25:35.001 [main] INFO  testCases.TC001_accountRegistrationTest - Confirming message
+11:25:36.998 [main] INFO  testCases.TC002_loginTest - TC002_loginTest is started...
+11:25:38.726 [main] INFO  testCases.TC002_loginTest - TC002_loginTest is successful
+11:26:12.049 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml"
+11:26:12.355 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml
+
+11:26:19.668 [main] INFO  testCases.TC001_accountRegistrationTest - Starting TC001_accountRegistrationTest...
+11:26:20.370 [main] INFO  testCases.TC001_accountRegistrationTest - Providing customer details..
+11:26:21.618 [main] INFO  testCases.TC001_accountRegistrationTest - Confirming message
+11:26:23.654 [main] INFO  testCases.TC002_loginTest - TC002_loginTest is started...
+11:26:25.405 [main] INFO  testCases.TC002_loginTest - TC002_loginTest is successful
+11:54:04.962 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml"
+11:54:29.259 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml"
+11:54:29.561 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml
+
+11:54:32.854 [main] INFO  testCases.TC001_accountRegistrationTest - Starting TC001_accountRegistrationTest...
+11:54:33.770 [main] INFO  testCases.TC001_accountRegistrationTest - Providing customer details..
+11:54:35.090 [main] INFO  testCases.TC001_accountRegistrationTest - Confirming message
+11:54:37.402 [main] INFO  testCases.TC002_loginTest - TC002_loginTest is started...
+11:54:39.272 [main] INFO  testCases.TC002_loginTest - TC002_loginTest is successful
+11:55:35.603 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml"
+11:55:35.893 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml
+
+11:55:52.111 [main] INFO  testCases.TC001_accountRegistrationTest - Starting TC001_accountRegistrationTest...
+11:55:53.133 [main] INFO  testCases.TC001_accountRegistrationTest - Providing customer details..
+11:55:54.534 [main] INFO  testCases.TC001_accountRegistrationTest - Confirming message
+11:55:56.450 [main] INFO  testCases.TC002_loginTest - TC002_loginTest is started...
+11:55:57.762 [main] INFO  testCases.TC002_loginTest - TC002_loginTest is successful
+12:22:31.170 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml"
+12:22:31.452 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml
+
+12:22:48.669 [main] INFO  testCases.TC001_accountRegistrationTest - Starting TC001_accountRegistrationTest...
+12:22:49.556 [main] INFO  testCases.TC001_accountRegistrationTest - Providing customer details..
+12:22:51.132 [main] INFO  testCases.TC001_accountRegistrationTest - Confirming message
+12:22:53.125 [main] INFO  testCases.TC002_loginTest - TC002_loginTest is started...
+12:22:54.934 [main] INFO  testCases.TC002_loginTest - TC002_loginTest is successful
+12:23:40.725 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml"
+12:23:41.007 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml
+
+12:23:58.163 [main] INFO  testCases.TC001_accountRegistrationTest - Starting TC001_accountRegistrationTest...
+12:23:59.100 [main] INFO  testCases.TC001_accountRegistrationTest - Providing customer details..
+12:24:00.456 [main] INFO  testCases.TC001_accountRegistrationTest - Confirming message
+12:24:02.327 [main] INFO  testCases.TC002_loginTest - TC002_loginTest is started...
+12:24:04.333 [main] INFO  testCases.TC002_loginTest - TC002_loginTest is successful
+14:00:34.719 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\ANIKET~1\AppData\Local\Temp\testng-eclipse-557256640\testng-customsuite.xml"
+14:00:34.995 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+14:00:34.997 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+14:00:34.999 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+14:00:34.999 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+14:00:35.000 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+14:00:35.000 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+14:00:35.000 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+14:00:35.000 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+14:00:35.007 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 3 ms.
+14:00:35.015 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 8 ms.
+14:00:35.016 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+14:00:35.016 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+14:00:35.017 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+14:00:35.017 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+14:00:35.018 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+14:00:35.018 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+14:00:35.021 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+14:00:35.021 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+14:00:35.021 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+14:00:35.021 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+14:00:35.022 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+14:00:35.022 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+14:00:35.022 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+14:00:35.022 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+14:00:35.023 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+14:00:35.025 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+14:00:35.027 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+14:00:35.027 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+14:00:35.027 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+14:00:35.027 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+14:00:35.035 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Aniket Kumbhar\AppData\Local\Temp\testng-eclipse-557256640\testng-customsuite.xml
+
+14:00:35.053 [main] INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 5 ms.
+14:00:35.263 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@5e8ac0e1: 82 ms
+14:00:35.290 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@485e36bc: 27 ms
+14:00:35.306 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@5c530d1e: 15 ms
+14:00:35.322 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@47a86fbb: 16 ms
+14:00:35.329 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@32c8e539: 7 ms
+14:00:35.329 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@73dce0e6: 0 ms
+14:02:04.744 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml"
+14:02:05.115 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml
+
+14:02:23.089 [main] INFO  testCases.TC001_accountRegistrationTest - Starting TC001_accountRegistrationTest...
+14:02:24.265 [main] INFO  testCases.TC001_accountRegistrationTest - Providing customer details..
+14:02:27.182 [main] INFO  testCases.TC001_accountRegistrationTest - Confirming message
+14:02:29.918 [main] INFO  testCases.TC002_loginTest - TC002_loginTest is started...
+14:02:31.680 [main] INFO  testCases.TC002_loginTest - TC002_loginTest is successful
+14:03:42.607 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml"
+14:03:42.961 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml
+
+14:03:58.191 [main] INFO  testCases.TC001_accountRegistrationTest - Starting TC001_accountRegistrationTest...
+14:03:59.160 [main] INFO  testCases.TC001_accountRegistrationTest - Providing customer details..
+14:04:00.524 [main] INFO  testCases.TC001_accountRegistrationTest - Confirming message
+14:04:02.569 [main] INFO  testCases.TC002_loginTest - TC002_loginTest is started...
+14:04:03.983 [main] INFO  testCases.TC002_loginTest - TC002_loginTest is successful
+14:37:48.275 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml"
+14:37:48.626 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml
+
+14:38:06.041 [main] INFO  testCases.TC001_accountRegistrationTest - Starting TC001_accountRegistrationTest...
+14:38:06.960 [main] INFO  testCases.TC001_accountRegistrationTest - Providing customer details..
+14:38:08.571 [main] INFO  testCases.TC001_accountRegistrationTest - Confirming message
+14:38:10.788 [main] INFO  testCases.TC002_loginTest - TC002_loginTest is started...
+14:38:12.409 [main] INFO  testCases.TC002_loginTest - TC002_loginTest is successful
+14:39:09.370 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml"
+14:39:09.728 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml
+
+14:39:26.128 [main] INFO  testCases.TC001_accountRegistrationTest - Starting TC001_accountRegistrationTest...
+14:39:27.099 [main] INFO  testCases.TC001_accountRegistrationTest - Providing customer details..
+14:39:27.677 [main] INFO  testCases.TC001_accountRegistrationTest - Confirming message
+14:39:30.510 [main] INFO  testCases.TC002_loginTest - TC002_loginTest is started...
+14:39:32.462 [main] INFO  testCases.TC002_loginTest - TC002_loginTest is successful
+21:55:25.668 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml"
+21:55:27.189 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml
+
+21:55:50.551 [main] INFO  testCases.TC001_accountRegistrationTest - Starting TC001_accountRegistrationTest...
+21:55:51.485 [main] INFO  testCases.TC001_accountRegistrationTest - Providing customer details..
+21:55:52.141 [main] INFO  testCases.TC001_accountRegistrationTest - Confirming message
+21:55:55.315 [main] INFO  testCases.TC002_loginTest - TC002_loginTest is started...
+21:55:57.030 [main] INFO  testCases.TC002_loginTest - TC002_loginTest is successful
+22:01:29.012 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml"
+22:01:29.329 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml
+
+22:01:45.087 [main] INFO  testCases.TC001_accountRegistrationTest - Starting TC001_accountRegistrationTest...
+22:01:46.015 [main] INFO  testCases.TC001_accountRegistrationTest - Providing customer details..
+22:01:47.421 [main] INFO  testCases.TC001_accountRegistrationTest - Confirming message
+22:01:49.379 [main] INFO  testCases.TC002_loginTest - TC002_loginTest is started...
+22:01:51.312 [main] INFO  testCases.TC002_loginTest - TC002_loginTest is successful
+22:04:12.568 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml"
+22:04:12.888 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml
+
+22:04:28.852 [main] INFO  testCases.TC001_accountRegistrationTest - Starting TC001_accountRegistrationTest...
+22:04:29.849 [main] INFO  testCases.TC001_accountRegistrationTest - Providing customer details..
+22:04:31.308 [main] INFO  testCases.TC001_accountRegistrationTest - Confirming message
+22:04:33.652 [main] INFO  testCases.TC002_loginTest - TC002_loginTest is started...
+22:04:35.714 [main] INFO  testCases.TC002_loginTest - TC002_loginTest is successful
+22:05:47.733 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml"
+22:05:48.068 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml
+
+22:06:03.701 [main] INFO  testCases.TC001_accountRegistrationTest - Starting TC001_accountRegistrationTest...
+22:06:04.713 [main] INFO  testCases.TC001_accountRegistrationTest - Providing customer details..
+22:06:06.067 [main] INFO  testCases.TC001_accountRegistrationTest - Confirming message
+22:06:08.137 [main] INFO  testCases.TC002_loginTest - TC002_loginTest is started...
+22:06:09.834 [main] INFO  testCases.TC002_loginTest - TC002_loginTest is successful
+22:09:40.601 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml"
+22:09:40.935 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml
+
+22:09:56.555 [main] INFO  testCases.TC001_accountRegistrationTest - Starting TC001_accountRegistrationTest...
+22:09:57.507 [main] INFO  testCases.TC001_accountRegistrationTest - Providing customer details..
+22:09:58.826 [main] INFO  testCases.TC001_accountRegistrationTest - Confirming message
+22:10:01.911 [main] INFO  testCases.TC002_loginTest - TC002_loginTest is started...
+22:10:06.874 [main] INFO  testCases.TC002_loginTest - TC002_loginTest is successful
+22:11:59.883 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\ANIKET~1\AppData\Local\Temp\testng-eclipse--1686124714\testng-customsuite.xml"
+22:12:00.116 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+22:12:00.118 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+22:12:00.120 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+22:12:00.121 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+22:12:00.122 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+22:12:00.122 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+22:12:00.123 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+22:12:00.123 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+22:12:00.131 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 5 ms.
+22:12:00.140 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 8 ms.
+22:12:00.142 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+22:12:00.142 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+22:12:00.143 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+22:12:00.143 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+22:12:00.144 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+22:12:00.144 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+22:12:00.147 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+22:12:00.147 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+22:12:00.147 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+22:12:00.147 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+22:12:00.148 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+22:12:00.148 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+22:12:00.148 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+22:12:00.148 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+22:12:00.149 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+22:12:00.150 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+22:12:00.151 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+22:12:00.151 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+22:12:00.151 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+22:12:00.151 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+22:12:00.159 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Aniket Kumbhar\AppData\Local\Temp\testng-eclipse--1686124714\testng-customsuite.xml
+
+22:12:00.176 [main] INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 3 ms.
+22:12:00.390 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@256f8274: 85 ms
+22:12:00.409 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@7b5a12ae: 18 ms
+22:12:00.427 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@4e70a728: 18 ms
+22:12:00.435 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@4795ded0: 7 ms
+22:12:00.446 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@4b7e96a: 11 ms
+22:12:00.447 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@6475472c: 0 ms
+22:12:06.340 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml"
+22:12:06.671 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml
+
+22:12:23.043 [main] INFO  testCases.TC001_accountRegistrationTest - Starting TC001_accountRegistrationTest...
+22:12:24.175 [main] INFO  testCases.TC001_accountRegistrationTest - Providing customer details..
+22:12:25.619 [main] INFO  testCases.TC001_accountRegistrationTest - Confirming message
+22:12:27.848 [main] INFO  testCases.TC002_loginTest - TC002_loginTest is started...
+22:12:29.785 [main] INFO  testCases.TC002_loginTest - TC002_loginTest is successful
+22:16:24.358 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml"
+22:16:24.758 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml
+
+22:16:40.493 [main] INFO  testCases.TC001_accountRegistrationTest - Starting TC001_accountRegistrationTest...
+22:16:41.483 [main] INFO  testCases.TC001_accountRegistrationTest - Providing customer details..
+22:16:42.182 [main] INFO  testCases.TC001_accountRegistrationTest - Confirming message
+22:16:45.435 [main] INFO  testCases.TC002_loginTest - TC002_loginTest is started...
+22:16:47.476 [main] INFO  testCases.TC002_loginTest - TC002_loginTest is successful
+22:19:52.153 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml"
+22:19:52.483 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml
+
+22:20:09.574 [main] INFO  testCases.TC001_accountRegistrationTest - Starting TC001_accountRegistrationTest...
+22:20:10.029 [main] INFO  testCases.TC001_accountRegistrationTest - Providing customer details..
+22:20:10.713 [main] INFO  testCases.TC001_accountRegistrationTest - Confirming message
+22:20:13.477 [main] INFO  testCases.TC002_loginTest - TC002_loginTest is started...
+22:20:15.374 [main] INFO  testCases.TC002_loginTest - TC002_loginTest is successful
+22:21:08.030 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml"
+22:21:08.347 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml
+
+22:21:28.413 [main] INFO  testCases.TC001_accountRegistrationTest - Starting TC001_accountRegistrationTest...
+22:21:29.234 [main] INFO  testCases.TC001_accountRegistrationTest - Providing customer details..
+22:21:30.584 [main] INFO  testCases.TC001_accountRegistrationTest - Confirming message
+22:21:33.368 [main] INFO  testCases.TC002_loginTest - TC002_loginTest is started...
+22:21:35.204 [main] INFO  testCases.TC002_loginTest - TC002_loginTest is successful
+22:25:12.000 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml"
+22:25:12.321 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml
+
+22:25:30.131 [main] INFO  testCases.TC001_accountRegistrationTest - Starting TC001_accountRegistrationTest...
+22:25:31.157 [main] INFO  testCases.TC001_accountRegistrationTest - Providing customer details..
+22:25:32.544 [main] INFO  testCases.TC001_accountRegistrationTest - Confirming message
+22:25:34.857 [main] INFO  testCases.TC002_loginTest - TC002_loginTest is started...
+22:25:36.784 [main] INFO  testCases.TC002_loginTest - TC002_loginTest is successful
+22:26:45.267 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml"
+22:26:45.577 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml
+
+22:27:05.871 [main] INFO  testCases.TC001_accountRegistrationTest - Starting TC001_accountRegistrationTest...
+22:27:06.906 [main] INFO  testCases.TC001_accountRegistrationTest - Providing customer details..
+22:27:07.616 [main] INFO  testCases.TC001_accountRegistrationTest - Confirming message
+22:27:10.418 [main] INFO  testCases.TC002_loginTest - TC002_loginTest is started...
+22:27:12.528 [main] INFO  testCases.TC002_loginTest - TC002_loginTest is successful
+22:33:23.465 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml"
+22:33:23.785 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml
+
+22:33:42.958 [main] INFO  testCases.TC001_accountRegistrationTest - Starting TC001_accountRegistrationTest...
+22:33:43.905 [main] INFO  testCases.TC001_accountRegistrationTest - Providing customer details..
+22:33:45.476 [main] INFO  testCases.TC001_accountRegistrationTest - Confirming message
+22:33:47.890 [main] INFO  testCases.TC002_loginTest - TC002_loginTest is started...
+22:33:50.890 [main] INFO  testCases.TC002_loginTest - TC002_loginTest is successful
+22:36:28.820 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml"
+22:36:29.136 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml
+
+22:36:47.315 [main] INFO  testCases.TC001_accountRegistrationTest - Starting TC001_accountRegistrationTest...
+22:36:47.765 [main] INFO  testCases.TC001_accountRegistrationTest - Providing customer details..
+22:36:49.278 [main] INFO  testCases.TC001_accountRegistrationTest - Confirming message
+22:36:51.629 [main] INFO  testCases.TC002_loginTest - TC002_loginTest is started...
+22:36:54.383 [main] INFO  testCases.TC002_loginTest - TC002_loginTest is successful
+22:38:32.699 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml"
+22:38:32.998 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml
+
+22:38:51.866 [main] INFO  testCases.TC001_accountRegistrationTest - Starting TC001_accountRegistrationTest...
+22:38:52.820 [main] INFO  testCases.TC001_accountRegistrationTest - Providing customer details..
+22:38:54.263 [main] INFO  testCases.TC001_accountRegistrationTest - Confirming message
+22:38:56.630 [main] INFO  testCases.TC002_loginTest - TC002_loginTest is started...
+22:38:59.599 [main] INFO  testCases.TC002_loginTest - TC002_loginTest is successful
+22:40:24.159 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml"
+22:40:24.502 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml
+
+22:40:39.978 [main] INFO  testCases.TC001_accountRegistrationTest - Starting TC001_accountRegistrationTest...
+22:40:41.005 [main] INFO  testCases.TC001_accountRegistrationTest - Providing customer details..
+22:40:41.655 [main] INFO  testCases.TC001_accountRegistrationTest - Confirming message
+22:40:44.872 [main] INFO  testCases.TC002_loginTest - TC002_loginTest is started...
+22:40:46.802 [main] INFO  testCases.TC002_loginTest - TC002_loginTest is successful
+22:41:28.763 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml"
+22:41:29.096 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml
+
+22:41:53.579 [main] INFO  testCases.TC001_accountRegistrationTest - Starting TC001_accountRegistrationTest...
+22:41:54.039 [main] INFO  testCases.TC001_accountRegistrationTest - Providing customer details..
+22:41:55.607 [main] INFO  testCases.TC001_accountRegistrationTest - Confirming message
+22:41:57.548 [main] INFO  testCases.TC002_loginTest - TC002_loginTest is started...
+22:41:59.004 [main] INFO  testCases.TC002_loginTest - TC002_loginTest is successful
+22:44:35.809 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml"
+22:44:36.144 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml
+
+22:44:56.321 [main] INFO  testCases.TC001_accountRegistrationTest - Starting TC001_accountRegistrationTest...
+22:44:57.341 [main] INFO  testCases.TC001_accountRegistrationTest - Providing customer details..
+22:44:58.843 [main] INFO  testCases.TC001_accountRegistrationTest - Confirming message
+22:45:00.808 [main] INFO  testCases.TC002_loginTest - TC002_loginTest is started...
+22:45:06.840 [main] INFO  testCases.TC002_loginTest - TC002_loginTest is successful
+22:49:35.707 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml"
+22:49:36.028 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml
+
+22:50:07.670 [main] INFO  testCases.TC001_accountRegistrationTest - Starting TC001_accountRegistrationTest...
+22:50:08.461 [main] INFO  testCases.TC001_accountRegistrationTest - Providing customer details..
+22:50:09.865 [main] INFO  testCases.TC001_accountRegistrationTest - Confirming message
+22:50:11.959 [main] INFO  testCases.TC002_loginTest - TC002_loginTest is started...
+22:50:13.707 [main] INFO  testCases.TC002_loginTest - TC002_loginTest is successful
+12:04:12.413 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml"
+12:04:33.579 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml"
+12:04:33.991 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml
+
+12:04:55.093 [main] INFO  testCases.TC001_accountRegistrationTest - Starting TC001_accountRegistrationTest...
+12:04:56.003 [main] INFO  testCases.TC001_accountRegistrationTest - Providing customer details..
+12:04:57.596 [main] INFO  testCases.TC001_accountRegistrationTest - Confirming message
+12:04:59.486 [main] INFO  testCases.TC002_loginTest - TC002_loginTest is started...
+12:05:01.198 [main] INFO  testCases.TC002_loginTest - TC002_loginTest is successful
+12:06:02.471 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml"
+12:06:02.789 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml
+
+12:07:44.043 [main] INFO  testCases.TC001_accountRegistrationTest - Starting TC001_accountRegistrationTest...
+12:07:44.858 [main] INFO  testCases.TC001_accountRegistrationTest - Providing customer details..
+12:07:45.487 [main] INFO  testCases.TC001_accountRegistrationTest - Confirming message
+12:07:48.207 [main] INFO  testCases.TC002_loginTest - TC002_loginTest is started...
+12:07:50.020 [main] INFO  testCases.TC002_loginTest - TC002_loginTest is successful
+01:02:57.521 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml"
+01:02:58.179 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml
+
+01:05:04.505 [main] INFO  testCases.TC001_accountRegistrationTest - Starting TC001_accountRegistrationTest...
+01:05:05.714 [main] INFO  testCases.TC001_accountRegistrationTest - Providing customer details..
+01:05:07.057 [main] INFO  testCases.TC001_accountRegistrationTest - Confirming message
+01:05:09.311 [main] INFO  testCases.TC002_loginTest - TC002_loginTest is started...
+01:05:11.146 [main] INFO  testCases.TC002_loginTest - TC002_loginTest is successful
+01:07:26.851 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml"
+01:07:27.224 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml
+
+01:09:21.878 [main] INFO  testCases.TC001_accountRegistrationTest - Starting TC001_accountRegistrationTest...
+01:09:23.076 [main] INFO  testCases.TC001_accountRegistrationTest - Providing customer details..
+01:09:24.560 [main] INFO  testCases.TC001_accountRegistrationTest - Confirming message
+01:09:26.894 [main] INFO  testCases.TC002_loginTest - TC002_loginTest is started...
+01:09:29.089 [main] INFO  testCases.TC002_loginTest - TC002_loginTest is successful
+01:13:32.139 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml"
+01:13:32.510 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\master.xml
+
+01:18:51.700 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\parallel.xml"
+01:18:52.079 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Aniket Kumbhar\eclipse-workspace\opencart_1.0\parallel.xml
+
+01:20:28.703 [TestNG-tests-1] INFO  testCases.TC002_loginTest - TC002_loginTest is started...
+01:20:30.517 [TestNG-tests-1] INFO  testCases.TC002_loginTest - TC002_loginTest is successful
+01:20:37.627 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+01:20:37.634 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+01:20:41.216 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+01:20:41.216 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+01:20:41.252 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+01:20:41.252 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+01:20:41.294 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+01:20:41.297 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+01:20:41.319 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+01:20:41.319 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+01:20:41.355 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+01:20:41.355 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+01:20:41.388 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+01:20:41.392 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+01:20:41.430 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+01:20:41.430 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+01:20:41.456 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+01:20:41.458 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+01:20:41.500 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+01:20:41.500 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+01:20:41.531 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+01:20:41.537 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+01:20:41.588 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+01:20:41.590 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+01:20:41.642 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+01:20:41.651 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+01:20:41.690 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+01:20:41.696 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+01:20:41.737 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+01:20:41.739 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+01:20:41.778 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+01:20:41.782 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+01:20:41.805 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+01:20:41.809 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+01:20:41.919 [TestNG-tests-1] INFO  testCases.TC003_LoginDDT - ***** stating TC_003_LoginDDT ******
+01:20:53.423 [TestNG-tests-1] INFO  testCases.TC003_LoginDDT - ***** Finished TC_003_LoginDDT ******
+01:20:53.426 [TestNG-tests-1] INFO  testCases.TC003_LoginDDT - ***** stating TC_003_LoginDDT ******
+01:20:55.646 [TestNG-tests-1] INFO  testCases.TC003_LoginDDT - ***** Finished TC_003_LoginDDT ******
+01:20:55.648 [TestNG-tests-1] INFO  testCases.TC003_LoginDDT - ***** stating TC_003_LoginDDT ******
+01:20:58.788 [TestNG-tests-1] INFO  testCases.TC003_LoginDDT - ***** Finished TC_003_LoginDDT ******
+01:20:58.797 [TestNG-tests-1] INFO  testCases.TC003_LoginDDT - ***** stating TC_003_LoginDDT ******
+01:21:10.439 [TestNG-tests-1] INFO  testCases.TC003_LoginDDT - ***** Finished TC_003_LoginDDT ******
+01:21:10.440 [TestNG-tests-1] INFO  testCases.TC003_LoginDDT - ***** stating TC_003_LoginDDT ******
+01:21:45.818 [TestNG-tests-2] INFO  testCases.TC002_loginTest - TC002_loginTest is started...

@@ -1,8 +1,12 @@
 package pageObjects;
 
+import java.time.Duration;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class ProductPage extends BasePage{
 	
@@ -32,8 +36,14 @@ public class ProductPage extends BasePage{
 	@FindBy(xpath="//*[@id=\"content\"]/div[3]/div[2]/a")
 	WebElement btnBuy;
 	
+	@FindBy(xpath="//*[@id=\"top-links\"]/ul/li[2]/ul/li[2]/a")
+	WebElement btnRight;
 	
+		
 
+	
+	
+	
 	public boolean isProductAvailable()
 	{
 		try {

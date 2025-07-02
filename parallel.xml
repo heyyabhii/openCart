@@ -3,28 +3,36 @@
 <suite name="Suite" thread-count="5" parallel="tests">
 	
   <test name="chromeTest">
-    <parameter name="os" value="Windows"/>
+    <parameter name="os" value="Linux"/>
     <parameter name="browser" value="chrome"/>
     <classes>
+      
+    <class name ="testCases.TC007_WishListTest"/>
+    	<class name="testCases.TC000_HomePageTest"/>
       <class name="testCases.TC001_accountRegistrationTest"/>
+      <class name="testCases.TC002_loginTest"/> 
+      <class name="testCases.TC003_LoginDDT"/>
+      <class name ="testCases.TC004_PurchaseProduct"/>
+      <class name ="testCases.TC006_SearchTest"/>
     </classes>
   </test> <!-- chromeTest -->
 
   <test name="edgeTest">
-    <parameter name="os" value="Windows"/>
-    <parameter name="browser" value="edge"/>
+    <parameter name="os" value="Linux"/>
+    <parameter name="browser" value="firefox"/>
     <classes>
+      
+    <class name ="testCases.TC007_WishListTest"/>
+    	<class name="testCases.TC000_HomePageTest"/>
       <class name="testCases.TC001_accountRegistrationTest"/>
+      <class name="testCases.TC002_loginTest"/> 
+      <class name="testCases.TC003_LoginDDT"/>
+      <class name ="testCases.TC004_PurchaseProduct"/>
+      <class name ="testCases.TC006_SearchTest"/>
     </classes>
   </test> <!-- edgeTest -->
 
-  <test name="firefoxTest">
-    <parameter name="os" value="Windows"/>
-    <parameter name="browser" value="firefox"/>
-    <classes>
-      <class name="testCases.TC001_accountRegistrationTest"/>
-    </classes>
-  </test> <!-- firefoxTest -->
+  
 
 </suite> <!-- Suite -->
 

@@ -1,10 +1,12 @@
 package testCases;
 
+import java.io.FileInputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.List;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -19,6 +21,12 @@ public class SampleTest {
 	        driver = new ChromeDriver();
 	        
 	        driver.get("https://tutorialsninja.com/demo");
+	        
+	        WebElement button = driver.findElement(By.xpath("//*[@id=\"cart\"]/button"));
+	        System.out.println(button.getCssValue("color"));
+	        
+	        JavascriptExecutor js = (JavascriptExecutor) driver;
+	        js.executeScript("window.scrollBy(0,800)");
 	        
 	        List<WebElement> allLinks = driver.findElements(By.tagName("a"));
 	        
@@ -46,6 +54,15 @@ public class SampleTest {
 	        		}
 	        	}
 	        }
+	 
+	        	
+	        	
+	        }
+	 
+	 public void readData() {
+		 
+		 
+		 
 	        
 	    }
 }
